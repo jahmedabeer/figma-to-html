@@ -1,0 +1,132 @@
+/* ========== Packaage =================*/
+#packaage {
+  background: #f9f9fb;
+}
+
+.wabe-bg-packaage {
+  position: relative;
+  bottom: -20px;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.packaage-top-content.text-center {
+  position: relative;
+  z-index: 1;
+}
+
+.packaage-bottom-content-card .card {
+  border-radius: 20px;
+  border: 0;
+  padding-bottom: 1rem;
+}
+.packaage-bottom-content-card .card-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.packaage-bottom-content-card .card-top {
+  background: var(--primary-color);
+  color: var(--common-color);
+  font-family: var(--primary-family);
+  height: 168px;
+}
+
+.packaage-bottom-content-card .list-group,
+.packaage-bottom-content-card .list-group-item {
+  border: 0;
+}
+
+.packaage-bottom-content-card .list-group {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.packaage-bottom-content-card .list-group svg {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  fill: var(--common-color);
+  margin-right: 0.5rem;
+}
+
+.packaage-bottom-content-card .card-title {
+  font-family: var(--primary-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.packaage-bottom-content-card .card-price-tag {
+  font-family: var(--primary-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 1rem 0;
+}
+
+.packaage-bottom-content-card .card-price-tag span:first-child {
+  margin-right: 2rem;
+}
+
+.packaage-bottom-content-card .card-price-tag span:last-child,
+.packaage-bottom-content-card .list-group span {
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.packaage-bottom-content:nth-child(2) .card,
+.packaage-bottom-content:nth-child(2) .list-group-item {
+  background: var(--primary-color);
+}
+
+.packaage-bottom-content:nth-child(2) .list-group-item span {
+  color: var(--common-color);
+}
+
+.packaage-bottom-content:nth-child(2) .list-group svg {
+  background-color: var(--common-color);
+  fill: var(--primary-color);
+}
+
+.packaage-bottom-content:nth-child(2) {
+  position: relative;
+}
+
+.packaage-bottom-content-specialCard {
+  position: absolute;
+  right: 40px;
+  z-index: 1;
+  background: #ffda58;
+  height: 45px;
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.packaage-top-duration-content-bar {
+  height: 32px;
+  width: 104px;
+  border-radius: 66px;
+  background: var(--common-color);
+  position: relative;
+}
+
+.packaage-top-duration-content-bar::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 38px;
+  border-radius: 66px;
+  background: var(--primary-color);
+  left: 10px;
+  top: 6px;
+}
+
+/* ========== End Packaage =================*/

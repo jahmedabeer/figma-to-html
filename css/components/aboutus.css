@@ -1,0 +1,12 @@
+/* =====   About us section ========= */
+#about-us {
+  background-color: var(--common-color);
+}
+
+.about-us-left img {
+  height: 531px;
+  width: 578px;
+  object-fit: contain;
+}
+
+/* =====   End About us section ========= */

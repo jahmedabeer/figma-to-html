@@ -1,0 +1,53 @@
+/* ========== social ======= */
+
+#social {
+  padding-bottom: 15rem !important;
+}
+
+.social-heading,
+.social-circle {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social-circle {
+  border: 12px solid #eef6fe;
+  border-radius: 1000px;
+  margin-top: 5rem;
+}
+
+.social-circle-media-first {
+  margin-left: 9rem;
+  justify-content: space-between;
+  margin-bottom: -5rem;
+}
+
+.social-circle-media-first img {
+  position: relative;
+  top: -45px;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.social-circle-media-last {
+  margin-right: 7rem;
+  justify-content: space-between;
+}
+
+.social-circle-media-last img {
+  position: relative;
+  bottom: -40px;
+  width: 85px;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 50%;
+}
+
+.social-circle-media-first img,
+.social-circle-media-last img {
+  width: 15%;
+}
+
+/* ========== End social ======= */

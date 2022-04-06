@@ -1,0 +1,13 @@
+@import url("./blocks/fonts.css");
+@import url("./blocks/variables.css");
+@import url("./blocks/defaultstyle.css");
+
+/* calling components */
+@import url("./components/hero.css");
+@import url("./components/aboutus.css");
+@import url("./components/features.css");
+@import url("./components/packaage.css");
+@import url("./components/blog.css");
+@import url("./components/social.css");
+@import url("./components/userinfo.css");
+@import url("./components/footer.css");

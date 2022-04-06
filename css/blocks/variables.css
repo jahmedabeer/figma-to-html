@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #8828ff;
+  --subheading-color: #20184e;
+  --common-color: #ffffff;
+  --paragraph-color: #666666;
+  --primary-family: "Space Grotesk", sans-serif;
+  --secondary-family: "Satoshi", sans-serif;
+  --third-family: "Nunito", sans-serif;
+}

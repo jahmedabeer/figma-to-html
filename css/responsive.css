@@ -1,0 +1,144 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* main heading */
+  h1 {
+    margin-right: -160px;
+  }
+
+  /* About us */
+  .about-us-right {
+    padding-left: 5rem;
+  }
+
+  /* features */
+  .features-left {
+    padding-right: 5rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 991.98px) {
+  /* ========== default ==========  */
+
+  h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .subheading {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  /* =========== About us ==============*/
+
+  #about-us {
+    padding-bottom: 0 !important;
+  }
+
+  .about-us-row {
+    flex-direction: column-reverse;
+  }
+
+  /* ======= features ===========*/
+
+  #features {
+    padding-top: 0 !important;
+  }
+
+  .features-bg {
+    top: -145px;
+  }
+
+  .features-bg img {
+    height: 200px;
+  }
+
+  .features-right-single-user-details {
+    padding: 0.75rem;
+    height: 90px;
+    width: 220px;
+  }
+
+  .features-right-single-user-details::after {
+    height: 5px;
+    width: 26px;
+  }
+
+  .features-right-single-user-details p {
+    font-size: 9.70213px;
+    margin-bottom: 0;
+  }
+
+  .features-right-single-user-details h3 {
+    font-size: 10.9149px;
+  }
+
+  .features-right-single-user-details span {
+    font-size: 7.2766px;
+  }
+
+  .features-right-content .features-right-single-user:nth-child(2) {
+    margin-left: 3rem !important;
+  }
+
+  .features-right-single-user-details {
+    margin: 0 1rem;
+  }
+
+  /* blog */
+  .blog-card {
+    width: 100%;
+  }
+
+  .blog-top-content {
+    flex-direction: column;
+  }
+
+  /* =========== social ==============  */
+
+  .social-heading,
+  .social-circle {
+    width: 100%;
+  }
+
+  .social-circle-media-first img,
+  .social-circle-media-last img {
+    width: 20%;
+  }
+
+  .social-circle-media-first {
+    margin-left: 4rem;
+    margin-bottom: -3rem;
+  }
+
+  .social-circle-media-first img {
+    top: -35px;
+  }
+
+  .social-circle-media-last img {
+    bottom: -30px;
+  }
+
+  .social-circle-media-last {
+    margin-right: 3rem;
+  }
+
+  /* ========= userinfo ======== */
+
+  .userinfo-card {
+    width: 100%;
+  }
+  .userinfo-right {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
+
+  .userinfo-card .usertwo {
+    margin-right: 0;
+  }
+}

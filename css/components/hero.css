@@ -1,0 +1,58 @@
+/* =====   hero section ========= */
+
+#hero-section {
+  background: url("/assets/wabe.png") no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+/* hero section top_bar */
+
+.logo {
+  width: 124px;
+  height: 29px;
+  object-fit: cover;
+}
+
+.button--blue {
+  border: 1.3px solid var(--primary-color);
+}
+.button--blue:hover {
+  border: 1.3px solid var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.navbar-nav .active {
+  color: var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link {
+  color: #c08dff;
+}
+
+.nav-link,
+.btn-link {
+  margin-right: 28px;
+}
+
+/* hero-section-main_content */
+.hero-section-main_content {
+  padding-top: 8rem;
+  padding-bottom: 15rem;
+}
+
+.hero-section-heading_left-btn {
+  margin-top: 36px;
+}
+
+.button--blue-full {
+  background-color: var(--primary-color);
+  color: var(--common-color);
+}
+
+.button--blue-full:hover {
+  background-color: var(--primary-color);
+  border: 1.3px solid var(--primary-color);
+}
+
+/* =====   End hero section ========= */

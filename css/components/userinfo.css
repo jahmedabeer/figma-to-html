@@ -1,0 +1,38 @@
+#userinfo {
+  background: url("/assets/userinfo.png") no-repeat;
+  background-size: cover;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+}
+
+.userinfo-right {
+  column-gap: 1rem;
+}
+
+.userinfo-card {
+  height: 258px;
+  width: 75%;
+}
+
+.userinfo-card .blog-card {
+  padding: 3rem 2rem;
+  width: 100%;
+}
+
+.userinfo-details img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  margin: 0 1rem 0 0;
+}
+
+.userinfo-name {
+  font-family: var(--third-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.userinfo-card.usertwo {
+  margin-right: -15rem;
+}

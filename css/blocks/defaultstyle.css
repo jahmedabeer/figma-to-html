@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+}
+
+a,
+button:focus {
+  box-shadow: none !important;
+}
+
+.button--default {
+  height: 48px;
+  width: 153px;
+  border-radius: 40px;
+  border: 1.3px solid var(--primary-color);
+}
+
+.button--default--big {
+  height: 55px;
+  width: 239px;
+  border-radius: 40px;
+  padding: 16px, 32px, 16px, 32px;
+}
+
+.default--link {
+  font-family: var(--primary-family);
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.py--4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py--8 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+h1 {
+  font-family: var(--primary-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: left;
+  color: var(--common-color);
+}
+
+.subheading {
+  font-family: var(--primary-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--subheading-color);
+  margin-bottom: 18px;
+}
+
+p {
+  font-family: var(--secondary-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.subheading-sibling {
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.link--white {
+  color: var(--common-color);
+}
+
+.link--cyan {
+  color: var(--paragraph-color);
+}
+
+.btn--cyan {
+  background: #f8f2ff;
+  color: #8828ff;
+  border: 0;
+}
