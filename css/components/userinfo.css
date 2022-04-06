@@ -1,5 +1,5 @@
 #userinfo {
-  background: url("/assets/userinfo.png") no-repeat;
+  background: url("./../../assets/userinfo.png") no-repeat;
   background-size: cover;
   padding-top: 12rem;
   padding-bottom: 10rem;
